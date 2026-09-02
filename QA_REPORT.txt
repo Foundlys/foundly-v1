@@ -1,0 +1,22 @@
+FOUNDLY OS v2.9 - QA REPORT
+Datum: 2026-09-02
+
+PASS - server.js syntax
+PASS - alle lib/config/test JavaScript syntax
+PASS - dashboard inline JavaScript syntax
+PASS - HTTP health endpoint v2.9
+PASS - 12 zelfstandige engine manifests
+PASS - engine independent=true voor alle 12 hoofdonderdelen
+PASS - tenant/dealer fysieke database-isolatie
+PASS - tenant/dealer lange geheugenisolatie
+PASS - Integration Bus routeert voertuigdata naar Data + Inkoop + Voorraad
+PASS - Inkoop Engine kan zelfstandig antwoorden
+PASS - Foundly Core kan meerdere engines orchestreren
+PASS - engine action queue endpoint
+PASS - 12 achtergrondworker definities
+PASS - 21 connector definities
+PASS - persistent long memory recall
+PASS - wake word/dashboardstructuur behouden
+PASS - smoke test: SMOKE_OK
+
+Opmerking: echte externe databronnen en generatieve AI vereisen geldige provider/API-credentials. Foundly verzint zonder live bronnen geen voertuigen, prijzen of marktdata. Deterministische Inkoop/Verkoop/CRM/Agenda-logica werkt op werkelijk ingeladen records.

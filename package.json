@@ -1,0 +1,13 @@
+{
+  "name": "foundly-os-v2-9-1",
+  "version": "2.9.1",
+  "private": true,
+  "description": "Foundly Automotive OS v2.9.1 - Railway-safe compatibility build",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

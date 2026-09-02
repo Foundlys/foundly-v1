@@ -1,0 +1,11 @@
+services:
+  foundly:
+    build: .
+    ports:
+      - "8787:8787"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./memory:/app/memory
+    restart: unless-stopped
